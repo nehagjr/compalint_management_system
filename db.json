@@ -1,0 +1,156 @@
+{
+  "student": [
+    {
+      "name": "raju",
+      "email": "raju@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "shivani patel",
+      "email": "shivani@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Neha patel",
+      "email": "neha123@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "pawan",
+      "email": "pawan@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "kapil",
+      "email": "kapil@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "sonam",
+      "email": "sonam@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "dheeraj",
+      "email": "dheeraj@123",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "Savitree Patel",
+      "email": "savitree@gmail.com",
+      "phone": "9752988588",
+      "password": "123",
+      "password1": "1122",
+      "id": 8
+    },
+    {
+      "name": "sumit",
+      "email": "ss@gmail.com",
+      "phone": "6352414141",
+      "password": "123",
+      "password1": "123",
+      "id": 9
+    },
+    {
+      "name": "Neha patel",
+      "email": "np123@gmail.com",
+      "phone": "6363636363",
+      "password": "123",
+      "password1": "123",
+      "id": 10
+    },
+    {
+      "name": "nehaa@gmail.com",
+      "email": "123np@gmail.com",
+      "password1": "123",
+      "phone": "9685747474",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "Neha",
+      "email": "neha123@gmail.com",
+      "password1": "123",
+      "phone": "9685747474",
+      "password": "123",
+      "id": 12
+    }
+  ],
+  "stucomplain": [
+    {
+      "id": 1,
+      "stuid": 2,
+      "complain": "wifi is note working",
+      "ans": "we are changing wifi , it will take time till that u can use your own data"
+    },
+    {
+      "stuid": 3,
+      "complain": "AC is not working",
+      "ans": "okk we will provide ac in ur class",
+      "id": 2
+    },
+    {
+      "stuid": 3,
+      "complain": "i wants to get selected in ur department",
+      "ans": "apply for it",
+      "id": 3
+    },
+    {
+      "stuid": 8,
+      "complain": "Pawan meri baat nahi  sunta",
+      "ans": "Sunta kuch galat femni hai",
+      "id": 4
+    },
+    {
+      "stuid": 9,
+      "complain": "the whole system is froud and the  manger is good aanything\n",
+      "ans": "tum admi hi farzi ho",
+      "id": 5
+    },
+    {
+      "stuid": 10,
+      "complain": "hlkbhlguhjv",
+      "ans": "jhiub",
+      "id": 6
+    },
+    {
+      "stuid": 11,
+      "complain": "hiiii their.................................",
+      "ans": "hlooooooooooooooooooooooo...........",
+      "id": 7
+    },
+    {
+      "stuid": 11,
+      "complain": "hlooooooooooooooooooooooooooooooooooo",
+      "ans": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii........................",
+      "id": 8
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "prakash sharma",
+      "email": "prakash@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "name": "rahul meena",
+      "email": "rahul@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": 3,
+      "name": "himanshu yadav",
+      "email": "himanshu@gmail.com",
+      "password": "1234"
+    }
+  ]
+}

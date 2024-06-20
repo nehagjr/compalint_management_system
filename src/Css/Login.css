@@ -1,0 +1,393 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+   --bg-color: #1d1d1d;
+   --text-color: #fff;
+   --main-color: #de2c50;
+   --big-font: 3rem;
+   --p-font: 1.1rem;
+   /* #b8002b */
+   --maidfdn-color: #f09faf;
+}
+
+/* -------------home------------------------ */
+
+#homebg {
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#Hlogo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: monospace;
+   line-height: 1.5;
+   color: #b8002b;
+}
+
+#homeText {
+   width: 35vw;
+   height: 40vh;
+}
+
+#Htext {
+   font-size: var(--big-font);
+   color: var(--main-color);
+}
+
+#homebg img {
+   height: 60vh;
+   width: 43vw;
+}
+
+#homebg button {
+   height: 40px;
+   width: 130px;
+   background-color: #de2c50;
+   border: none;
+   color: white;
+   font-size: var(--p-font);
+}
+
+#homeNav {
+   height: 10vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* padding-left: 30px; */
+}
+
+#homeNav .link {
+   color: black;
+   text-decoration: none;
+   font-size: var(--p-font);
+   padding-right: 30px;
+}
+
+#homeNav img {
+   height: 47px;
+   width: 130px;
+}
+
+#homeNav button {
+   height: 40px;
+   width: 110px;
+   background-color: #de2c50;
+   border: none;
+   color: white;
+   border-radius: 20px;
+   font-size: 16px;
+}
+
+/*-------------------------------- LOGIN / Registration PAGE------------------------------- */
+
+#wrapper {
+   height: 90vh;
+   width: 100vw;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+#loginImg img {
+   height: 70vh;
+   width: 34vw;
+}
+
+#loginBox {
+   height: 70vh;
+   width: 30vw;
+   font-size: 1rem;
+   padding: 30px;
+   box-shadow: 0px 8px 16px 0px #b38383;
+}
+
+.Logintext {
+   color: #de2c50;
+   font-size: 2rem;
+   text-align: center;
+   font-weight: bold;
+}
+
+.social {
+   color: var(--bg-color);
+}
+
+#loginBox input {
+   border: none;
+   font-size: 1rem;
+   height: 40px;
+   width: 100%;
+   padding: 10px;
+   background-color: hsl(318, 62%, 94%);
+   border-radius: 20px;
+
+}
+
+#loginBox select {
+   border: none;
+   height: 35px;
+   width: 50%;
+   background-color: hsl(318, 62%, 94%);
+   margin-left: 10px;
+   border-radius: 8px;
+   padding: 8px;
+}
+
+#loginBox select option {
+   height: 60px;
+}
+
+#select {
+   display: flex;
+   align-items: center;
+   color: #b8002b;
+}
+
+.Lbtn {
+   display: inline-block;
+   padding: 11px 34px;
+   background: var(--main-color);
+   color: var(--text-color);
+   border: 2px solid var(--main-color);
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 8px;
+   transition: all 0.6s ease-in-out;
+}
+
+.Lbtn:hover {
+   transform: translateY(-5px);
+   background: transparent;
+   color: var(--main-color);
+}
+
+.two {
+   background: #141414;
+   border: 2px solid #141414;
+   color: var(--text-color);
+   margin-left: 25px;
+}
+
+.two:hover {
+   border: 2px solid var(--main-color);
+   transform: translateY(-5px);
+   background: transparent;
+   color: var(--main-color);
+}
+
+/* -------------------StudentDB----------------------- */
+#top
+{
+   display: flex;
+   margin-left: 130px;
+   font-weight: bold;
+   color: var(--main-color);
+   font-size: 25px;
+   top: 0;
+   cursor: default;
+}
+#top #stuuu
+{
+   position: absolute;
+   top: 18px;
+   left: 37.5%;
+   display: flex;
+   background-color: #ffffff;
+}
+#name
+{
+   margin-left: 8px;
+   color: #c63154;
+   font-size: 30px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#stuDBbtn
+{
+   position: absolute;
+   top: 17px;
+   right: 10.6vw;
+   transition: all 0.6s ease-in-out; 
+   height: 45px;
+   width: 130px;
+   background-color: #de2c50;
+   border: none;
+   color: white;
+   border-radius: 20px;
+   font-size: 16px;
+}
+#stuDBbtn:hover {
+   border: 2px solid var(--main-color);
+   transform: translateY(-5px);
+   padding: 9px 32px;
+   background-color: white;
+    color: var(--main-color);
+}
+#studb{
+   font-size: 18px;
+   height: 8vh;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  background-color: var(--main-color); 
+}
+
+#stuoutlate
+{
+   height: 80vh;
+   padding-top: 7vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* background-image: url(../images/gif4.gif);
+   background-position: center;
+   background-size: cover; */
+   /* background-color: #b38383; */
+}
+
+.stuLink
+{
+   text-decoration: none; 
+   color: white;
+   margin-left: 3vh;
+}
+
+
+/* ------------------------Complain--------------------------------- */
+#stuComplain{
+   height: 50vh;
+   /* width: 56vw; */
+    /* background-color: white; */
+    display: flex;
+}
+#c2{
+   height: 60.2vh;
+   width: 22vw;
+   /* background-color: #b38383; */
+   background-image: url(../images/f4.png);
+   background-size: cover;
+   margin-right: 100px;
+}
+#c1{
+   margin-top: 50px;
+}
+#comptext {
+   color: rgb(67, 0, 0);
+   background: white;
+}
+#textbox textarea
+{
+   border: 2px dotted var(--main-color);
+}
+#cBtn button{
+   margin-top: 20px;
+   display: inline-block;
+   padding: 10px 28px;
+   /* background: #141414; */
+   /* color: var(--text-color); */
+   /* border: 2px solid #141414; */
+   background: var(--main-color);
+   color: var(--text-color);
+   border: 2px solid var(--main-color);
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 8px;
+   transition: all 0.6s ease-in-out;
+}
+
+#cBtn button:hover {
+   border: 2px solid var(--main-color);
+   transform: translateY(-5px);
+   background: transparent;
+   color: var(--main-color);
+}
+#ansHead{
+   margin-bottom: 30px;
+}
+
+/* --------table--------- */
+#tablee tr{
+   height: 30px;
+   color: #141414;
+   background-color: hsl(318, 62%, 94%);
+   text-align: center;
+}
+/* --------stupassa--------- */
+.Stupass{
+   line-height: 2.5;
+}
+/* ------adminDB------- */
+#rplyBTN{
+   border: none;
+   padding: 3px;
+   width: 70px;
+   /* background-color: #f09faf; */
+   background-color: var(--main-color);
+   color: white;
+}
+/* -------------------------AdminDashboard--------------------------- */
+/* #adminnav {
+   display: flex;
+   width: 100vw;
+   height: 60px;
+   padding-left: 20px;
+   background-color: rgb(99, 135, 137);
+}
+
+#navbar12 button {
+   background-color: red;
+   color: black;
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+
+}
+
+#navbar12 {
+   position: absolute;
+   top: 0;
+}
+
+#navbar12 .stuLink {
+   margin: 2px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+}
+
+#navbar12 .stuLink:hover {
+   background-color: rgb(23, 56, 56);
+}
+
+#outlate {
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   justify-content: center;
+   width: 1300px;
+   background-color: darkgrey;
+   position: absolute;
+   top: 150px;
+   left: 120px;
+}
+
+.loader {
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: gray;
+
+} */
